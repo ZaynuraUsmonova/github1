@@ -63,12 +63,7 @@ class MyApp extends StatelessWidget {
 
                         ),
                       ),
-
-
-
-
-
-           InkWell( onTap: () {
+                  InkWell( onTap: () {
              Navigator.push(context,
                  MaterialPageRoute(builder: (c) =>  Tortburchak()));
            },
@@ -97,10 +92,6 @@ class MyApp extends StatelessWidget {
 
                               ),
            ),
-
-
-
-
                   InkWell( onTap: () {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (c) => const Parallelogramm()));
